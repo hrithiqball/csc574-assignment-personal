@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Resume of Harith Iqbal, a software developer and Computer Science student at Universiti Teknologi MARA.">
+  <meta name="author" content="Harith Iqbal">
+  <title>Harith Iqbal | Software Developer</title>
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="#about" class="brand">Harith Iqbal</a>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="navLinks">Menu</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="about" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="greeting" id="greeting">Hello there,</p>
+          <h1 class="hero-name">I'm Harith Iqbal</h1>
+          <p class="hero-role">Software Developer &amp; Computer Science Student</p>
+
+          <p class="hero-summary">
+            I plan, design, build, test, ship, maintain and improve web applications.
+            I mostly work with React, Angular, Node.js and .NET, backed by PostgreSQL,
+            MongoDB and Docker. I'm currently a Software Developer at Swift Haulage Berhad
+            and a Computer Science student at Universiti Teknologi MARA.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Get in touch</a>
+            <a href="#projects" class="btn btn-outline">View projects</a>
+          </div>
+        </div>
+
+        <figure class="hero-photo">
+          <img src="images/profile.jpg" alt="Portrait of Harith Iqbal" width="480" height="480">
+        </figure>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title">Work Experience</h2>
+
+        <ol class="timeline">
+          <li class="timeline-item">
+            <article class="card job">
+              <img class="job-logo" src="images/swift.png" alt="Swift Haulage Berhad logo" width="400" height="224" loading="lazy">
+              <div class="job-body">
+                <header class="job-header">
+                  <div>
+                    <h3 class="job-role">Software Developer</h3>
+                    <p class="job-company">
+                      <a href="https://swiftlogistics.com.my/" target="_blank" rel="noopener noreferrer">Swift Haulage Berhad</a>
+                    </p>
+                  </div>
+                  <p class="job-date"><time datetime="2024-06">June 2024</time> – Present</p>
+                </header>
+                <p>
+                  I help maintain and develop Swift Logistics' internal transport and supply chain system,
+                  used through the Swift Logistics portal and the ShipX interface. The platform handles
+                  transport requests, prime mover tracking and the full logistics workflow, including
+                  haulage, forwarding, request of transport (ROT) and billing.
+                </p>
+              </div>
+            </article>
+          </li>
+
+          <li class="timeline-item">
+            <article class="card job">
+              <img class="job-logo" src="images/recogine.png" alt="Recogine Technology logo" width="300" height="66" loading="lazy">
+              <div class="job-body">
+                <header class="job-header">
+                  <div>
+                    <h3 class="job-role">Software Engineer</h3>
+                    <p class="job-company">
+                      <a href="https://recogine.com" target="_blank" rel="noopener noreferrer">Recogine Technology Sdn Bhd</a>
+                    </p>
+                  </div>
+                  <p class="job-date"><time datetime="2023-01">January 2023</time> – <time datetime="2024-06">June 2024</time></p>
+                </header>
+                <p>
+                  Built the RecoZense product line for highway and railway transportation systems, with
+                  deployments in Malaysia, Thailand and the Philippines. Worked with IoT hardware such as
+                  speed radars and RFID readers, plus in-house machine learning, video analytics and cloud
+                  computing. Products included Automatic Number Plate Recognition, a Vehicle Detection
+                  System, Weigh-in-Motion and Variable Message Signs.
+                </p>
+              </div>
+            </article>
+          </li>
+
+          <li class="timeline-item">
+            <article class="card job">
+              <img class="job-logo" src="images/recogine.png" alt="Recogine Technology logo" width="300" height="66" loading="lazy">
+              <div class="job-body">
+                <header class="job-header">
+                  <div>
+                    <h3 class="job-role">Application Development Intern</h3>
+                    <p class="job-company">
+                      <a href="https://recogine.com" target="_blank" rel="noopener noreferrer">Recogine Technology Sdn Bhd</a>
+                    </p>
+                  </div>
+                  <p class="job-date"><time datetime="2022-09">September 2022</time> – <time datetime="2022-12">December 2022</time></p>
+                </header>
+                <p>
+                  Built cross-platform mobile apps with the Expo framework. This was my first time going
+                  through the full software development life cycle, from planning through to maintenance.
+                </p>
+              </div>
+            </article>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+
+        <div class="edu-grid">
+          <article class="card edu">
+            <img class="edu-logo" src="images/uitm.png" alt="Universiti Teknologi MARA logo" width="80" height="80" loading="lazy">
+            <div>
+              <h3>Bachelor of Computer Science (Hons.)</h3>
+              <p class="edu-school">
+                <a href="https://uitm.edu.my" target="_blank" rel="noopener noreferrer">Universiti Teknologi MARA</a>
+              </p>
+              <p class="edu-date">2023 – Present</p>
+            </div>
+          </article>
+
+          <article class="card edu">
+            <img class="edu-logo" src="images/uitm.png" alt="Universiti Teknologi MARA logo" width="80" height="80" loading="lazy">
+            <div>
+              <h3>Diploma in Computer Science</h3>
+              <p class="edu-school">
+                <a href="https://uitm.edu.my" target="_blank" rel="noopener noreferrer">Universiti Teknologi MARA</a>
+              </p>
+              <p class="edu-date">2020 – 2023</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+          <div class="card skill-group">
+            <h3>Frontend</h3>
+            <ul class="tags">
+              <li>React</li>
+              <li>Angular</li>
+              <li>Next.js</li>
+              <li>TypeScript</li>
+              <li>Tailwind CSS</li>
+            </ul>
+          </div>
+          <div class="card skill-group">
+            <h3>Backend</h3>
+            <ul class="tags">
+              <li>Node.js</li>
+              <li>.NET</li>
+              <li>GraphQL</li>
+              <li>Spring Boot</li>
+            </ul>
+          </div>
+          <div class="card skill-group">
+            <h3>Data</h3>
+            <ul class="tags">
+              <li>PostgreSQL</li>
+              <li>MongoDB</li>
+              <li>Prisma</li>
+              <li>Elastic</li>
+            </ul>
+          </div>
+          <div class="card skill-group">
+            <h3>DevOps &amp; Mobile</h3>
+            <ul class="tags">
+              <li>Docker</li>
+              <li>Cloudflare</li>
+              <li>Expo</li>
+              <li>Firebase</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="projects-grid">
+          <article class="card project">
+            <h3>Tridennote</h3>
+            <p>
+              A block-based notes app that combines Obsidian-style vaults with a Notion-style editor.
+              It supports live markdown preview, drawing canvases, diagrams, a graph view of linked
+              notes, live share links and a companion terminal client.
+            </p>
+            <div class="project-links">
+              <a href="https://tridennote.pixcel.org" target="_blank" rel="noopener noreferrer">Live demo</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <h3>pick·pdf</h3>
+            <p>
+              Adds or removes a PDF password right in the browser, so files never leave the device.
+              Files can also be shared through end-to-end encrypted, burn-after-reading links.
+            </p>
+            <div class="project-links">
+              <a href="https://pick-pdf.pixcel.org" target="_blank" rel="noopener noreferrer">Live demo</a>
+              <a href="https://github.com/hrithiqball/pick-pdf" target="_blank" rel="noopener noreferrer">Source code</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <h3>E-Jobpack</h3>
+            <p>
+              An asset management system for company assets and maintenance by in-house teams and
+              third-party vendors. Includes offline checklists through Excel and QR code scanning.
+            </p>
+            <div class="project-links">
+              <a href="https://e-jobpack-app.vercel.app/" target="_blank" rel="noopener noreferrer">Live demo</a>
+              <a href="https://github.com/hrithiqball/e-jobpack" target="_blank" rel="noopener noreferrer">Source code</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <h3>EV Charging Reservation System</h3>
+            <p>
+              Lets users reserve electric vehicle charging stations, check availability and manage
+              their reservations.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/hrithiqball/ev-reservation" target="_blank" rel="noopener noreferrer">Source code</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <h3>Mindful Muslim</h3>
+            <p>
+              A cross-platform mobile app that shows daily prayer times and lets users track prayers,
+              set reminders, pair up with a prayer buddy and review their prayer habits.
+            </p>
+          </article>
+
+          <article class="card project">
+            <h3>Transtrack System</h3>
+            <p>
+              A booking system for transportation services where users can book trips, check
+              availability and manage bookings.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/hrithiqball/transtrack-system" target="_blank" rel="noopener noreferrer">Source code</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <h3>Interntrack System</h3>
+            <p>
+              An internship management system for handling applications, tracking progress and
+              communicating with mentors.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/hrithiqball/interntrack" target="_blank" rel="noopener noreferrer">Source code</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container contact">
+        <h2 class="section-title">Contact</h2>
+        <p class="contact-text">
+          I'm open to new projects and collaborations. The quickest way to reach me is by email.
+        </p>
+
+        <div class="contact-email">
+          <a href="mailto:hrithiqball@gmail.com" class="btn btn-primary">hrithiqball@gmail.com</a>
+          <button class="btn btn-outline" id="copyEmail" type="button">Copy email</button>
+        </div>
+        <p class="copy-status" id="copyStatus" role="status" aria-live="polite"></p>
+
+        <ul class="social-links">
+          <li><a href="https://github.com/hrithiqball" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/hrithiqball/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="https://harith-iqbal.com/" target="_blank" rel="noopener noreferrer">Portfolio</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year">2026</span> Harith Iqbal</p>
+    <a href="#about">Back to top</a>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
